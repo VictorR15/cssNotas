@@ -1,0 +1,17 @@
+/* TABLET */
+@media (min-width: 768px) {
+    .columna{
+        background-color: blue;
+    }
+}
+/* LAP */
+@media (min-width: 992px ) {
+    .columna{
+        background-color: green;
+    }
+}
+@media (min-width: 1200px) {
+    .columna{
+        background-color: black;
+    }
+}

@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .oferta {
+    padding: 3rem;
+  }
+}
+@media (min-width: 980px) {
+  .oferta {
+    padding: 5rem;
+  }
+}

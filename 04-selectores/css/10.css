@@ -1,0 +1,11 @@
+/* PARA TODOS LOS SELECTORES QUE EMPIEZAN CON HTTP */
+a[href^="http"]{
+    color: red;
+}
+/* PARA TODOS LOS SELECTORES QUE TERMINAN CON .COM */
+a[href$=".com"]{
+    color: red;
+}
+input[type="tel"]{
+    border: 5px solid red;
+}

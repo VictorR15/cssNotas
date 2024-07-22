@@ -1,0 +1,23 @@
+@use "base/variables" as v;
+
+.aside {
+  &__img {
+    width: 100%;
+  }
+  &__contenido {
+    background-color: v.$secundario;
+    padding: 4rem;
+    text-align: center;
+  }
+  &__texto {
+    color: v.$blanco;
+  }
+  &__fecha,
+  &__hora,
+  &__ubicacion {
+    color: v.$blanco;
+    > span {
+      font-weight: bold;
+    }
+  }
+}

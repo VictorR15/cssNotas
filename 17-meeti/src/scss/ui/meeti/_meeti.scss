@@ -1,0 +1,13 @@
+@use "base/mixins" as m;
+.meeti {
+  &__grid {
+    @include m.tablet {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      gap: 2rem;
+    }
+  }
+  &__header {
+    text-align: center;
+  }
+}
